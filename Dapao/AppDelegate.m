@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import <RongIMKit/RongIMKit.h>
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[RCIM sharedRCIM] initWithAppKey:@"z3v5yqkbvm580"];
+    
     return YES;
 }
 

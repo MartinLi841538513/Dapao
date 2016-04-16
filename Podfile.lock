@@ -1,10 +1,13 @@
 PODS:
+  - JSONModel (1.2.0)
   - RongCloudIMKit (2.4.0)
 
 DEPENDENCIES:
+  - JSONModel (~> 1.2.0)
   - RongCloudIMKit (= 2.4.0)
 
 SPEC CHECKSUMS:
+  JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
   RongCloudIMKit: c2cb0013452b98b38267d395b6155665344db96e
 
 COCOAPODS: 0.39.0
